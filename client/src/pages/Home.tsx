@@ -36,7 +36,7 @@ const Home = () => {
         >
           <div>
             <h1>
-              <a href="/">Mohamed Nagy</a>
+              <a href="/">Mohamed NagyY</a>
             </h1>
             <h4 className="mt-3">Web App Developer</h4>
             <p className="mt-4 max-w-xs leading-normal">
