@@ -94,18 +94,6 @@ h6 {
   min-height: 100vh;
 }
 
-.wRightCol {
-  width: 55%;
-  background-color: var(--background); /* Ensure it's applied to both columns */
-  color: var(--text); /* Ensures text color is also updated */
-}
-
-.wLeftCol {
-  width: 45%;
-  background-color: var(--background); /* Ensure it's applied to both columns */
-  color: var(--text); /* Ensures text color is also updated */
-}
-
 .sticky {
   position: sticky;
   top: 0;
@@ -128,6 +116,10 @@ button {
 
 button:hover {
   background-color: var(--buttonHover);
+}
+
+.asideTop {
+  padding-top: 50px !important;
 }
 
 /* Responsive settings for larger screens */
@@ -156,5 +148,13 @@ button:hover {
   }
   body {
     font-size: 1.125rem; /* Slightly larger text on desktop */
+  }
+
+  .asideTop {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+  }
+  .mainTop {
+    padding-top: 100px !important;
   }
 }

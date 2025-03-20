@@ -31,12 +31,12 @@ const Home = () => {
       <div className="max-w-[1300px] w-full flex flex-col lg:flex-row">
         {/* Left Column - Header & Navigation */}
         <aside
-          className="p-6 lg:w-1/2 lg:sticky lg:top-0 lg:h-screen lg:flex lg:flex-col lg:justify-normal lg:p-12
+          className="asideTop p-6 lg:w-1/2 lg:sticky lg:top-0 lg:h-screen lg:flex lg:flex-col lg:justify-normal lg:p-12
 "
         >
           <div>
             <h1>
-              <a href="/">Mohamed NagyY</a>
+              <a href="/">Mohamed Nagy</a>
             </h1>
             <h4 className="mt-3">Web App Developer</h4>
             <p className="mt-4 max-w-xs leading-normal">
@@ -104,7 +104,7 @@ const Home = () => {
 
         {/* Right Column - Main Content */}
         <main
-          className="lg:w-3/5 p-6 lg:p-12
+          className="mainTop lg:w-3/5 p-6 lg:p-12
 "
         >
           <section id="about" className="mb-16">
