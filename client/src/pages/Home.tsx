@@ -139,59 +139,55 @@ const Home = () => {
             <ol className="list-none">
               <li className="mb-12">
                 <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-                  <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-100 dark:lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
-                  <header className="z-10 mb-2 lg:mt-3 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">
+                  {/* Background Hover Effect with Increased Padding */}
+                  <div className="absolute -inset-x-4 -inset-y-5 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-100 dark:lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+
+                  {/* Left Section: Ensure Date is at the Top */}
+                  <header className="z-10 mt-0.5 mb-4 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2 flex items-start">
                     2025 — Present
                   </header>
-                  <div className="z-10 sm:col-span-6">
-                    <h3 className="font-medium leading-snug text-text">
-                      <div>
-                        <a
-                          className="inline-flex items-baseline font-medium leading-tight text-text hover:text-indigo-300 focus-visible:text-indigo-300 group/link text-base"
-                          href="https://www.example.com"
-                          target="_blank"
-                          rel="noreferrer noopener"
-                        >
-                          <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                          <span>
-                            Frontend Developer ·{" "}
-                            <span className="inline-block">
-                              Example Company
-                            </span>
-                          </span>
-                        </a>
-                      </div>
+
+                  {/* Right Section: Ensure Title is Fully Flush */}
+                  <div className="z-10 sm:col-span-6 flex flex-col items-start">
+                    <h3 className="font-medium leading-snug text-text flex items-start">
+                      <a
+                        className="inline-flex items-baseline font-medium leading-tight text-text hover:text-indigo-300 focus-visible:text-indigo-300 group/link text-base"
+                        href="https://www.example.com"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >
+                        <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-3 lg:block"></span>
+
+                        {/* Remove inline-block and ensure alignment */}
+                        <span className="flex items-start">
+                          Frontend Developer · Example Company
+                        </span>
+                      </a>
                     </h3>
+
                     <p className="mt-2 text-sm leading-normal">
                       Work on building and optimizing web applications with a
                       focus on performance and accessibility. Collaborate with
                       cross-functional teams to develop high-quality UI
                       components.
                     </p>
+
                     <ul
                       className="mt-2 flex flex-wrap"
                       aria-label="Technologies used"
                     >
-                      <li className="mr-1.5 mt-2">
-                        <div className="flex items-center rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-300">
-                          JavaScript
-                        </div>
-                      </li>
-                      <li className="mr-1.5 mt-2">
-                        <div className="flex items-center rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-300">
-                          TypeScript
-                        </div>
-                      </li>
-                      <li className="mr-1.5 mt-2">
-                        <div className="flex items-center rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-300">
-                          React
-                        </div>
-                      </li>
-                      <li className="mr-1.5 mt-2">
-                        <div className="flex items-center rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-300">
-                          Tailwind CSS
-                        </div>
-                      </li>
+                      {[
+                        "JavaScript",
+                        "TypeScript",
+                        "React",
+                        "Tailwind CSS",
+                      ].map((tech) => (
+                        <li key={tech} className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-300">
+                            {tech}
+                          </div>
+                        </li>
+                      ))}
                     </ul>
                   </div>
                 </div>
@@ -199,56 +195,55 @@ const Home = () => {
 
               <li className="mb-12">
                 <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-                  <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-100 dark:lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
-                  <header className="z-10 mb-2 lg:mt-3 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">
-                    2023 — 2025
+                  {/* Background Hover Effect with Increased Padding */}
+                  <div className="absolute -inset-x-4 -inset-y-5 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-100 dark:lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+
+                  {/* Left Section: Ensure Date is at the Top */}
+                  <header className="z-10 mt-0.5 mb-4 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2 flex items-start">
+                    2025 — Present
                   </header>
-                  <div className="z-10 sm:col-span-6">
-                    <h3 className="font-medium leading-snug text-text">
-                      <div>
-                        <a
-                          className="inline-flex items-baseline font-medium leading-tight text-text hover:text-indigo-300 focus-visible:text-indigo-300 group/link text-base"
-                          href="https://www.devworks.com"
-                          target="_blank"
-                          rel="noreferrer noopener"
-                        >
-                          <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                          <span>
-                            Web Developer ·{" "}
-                            <span className="inline-block">DevWorks</span>
-                          </span>
-                        </a>
-                      </div>
+
+                  {/* Right Section: Ensure Title is Fully Flush */}
+                  <div className="z-10 sm:col-span-6 flex flex-col items-start">
+                    <h3 className="font-medium leading-snug text-text flex items-start">
+                      <a
+                        className="inline-flex items-baseline font-medium leading-tight text-text hover:text-indigo-300 focus-visible:text-indigo-300 group/link text-base"
+                        href="https://www.example.com"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >
+                        <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-3 lg:block"></span>
+
+                        {/* Remove inline-block and ensure alignment */}
+                        <span className="flex items-start">
+                          Frontend Developer · Example Company
+                        </span>
+                      </a>
                     </h3>
+
                     <p className="mt-2 text-sm leading-normal">
-                      Built responsive user interfaces and contributed to
-                      backend integrations. Enhanced site speed and
-                      accessibility for multiple client projects.
+                      Work on building and optimizing web applications with a
+                      focus on performance and accessibility. Collaborate with
+                      cross-functional teams to develop high-quality UI
+                      components.
                     </p>
+
                     <ul
                       className="mt-2 flex flex-wrap"
                       aria-label="Technologies used"
                     >
-                      <li className="mr-1.5 mt-2">
-                        <div className="flex items-center rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-300">
-                          HTML
-                        </div>
-                      </li>
-                      <li className="mr-1.5 mt-2">
-                        <div className="flex items-center rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-300">
-                          CSS
-                        </div>
-                      </li>
-                      <li className="mr-1.5 mt-2">
-                        <div className="flex items-center rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-300">
-                          JavaScript
-                        </div>
-                      </li>
-                      <li className="mr-1.5 mt-2">
-                        <div className="flex items-center rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-300">
-                          Node.js
-                        </div>
-                      </li>
+                      {[
+                        "JavaScript",
+                        "TypeScript",
+                        "React",
+                        "Tailwind CSS",
+                      ].map((tech) => (
+                        <li key={tech} className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-300">
+                            {tech}
+                          </div>
+                        </li>
+                      ))}
                     </ul>
                   </div>
                 </div>
@@ -256,51 +251,55 @@ const Home = () => {
 
               <li className="mb-12">
                 <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-                  <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-100 dark:lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
-                  <header className="z-10 mb-2 lg:mt-3 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">
-                    2021 — 2023
+                  {/* Background Hover Effect with Increased Padding */}
+                  <div className="absolute -inset-x-4 -inset-y-5 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-100 dark:lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+
+                  {/* Left Section: Ensure Date is at the Top */}
+                  <header className="z-10 mt-0.5 mb-4 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2 flex items-start">
+                    2025 — Present
                   </header>
-                  <div className="z-10 sm:col-span-6">
-                    <h3 className="font-medium leading-snug text-text">
-                      <div>
-                        <a
-                          className="inline-flex items-baseline font-medium leading-tight text-text hover:text-indigo-300 focus-visible:text-indigo-300 group/link text-base"
-                          href="https://www.techstart.com"
-                          target="_blank"
-                          rel="noreferrer noopener"
-                        >
-                          <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                          <span>
-                            Junior Developer ·{" "}
-                            <span className="inline-block">TechStart</span>
-                          </span>
-                        </a>
-                      </div>
+
+                  {/* Right Section: Ensure Title is Fully Flush */}
+                  <div className="z-10 sm:col-span-6 flex flex-col items-start">
+                    <h3 className="font-medium leading-snug text-text flex items-start">
+                      <a
+                        className="inline-flex items-baseline font-medium leading-tight text-text hover:text-indigo-300 focus-visible:text-indigo-300 group/link text-base"
+                        href="https://www.example.com"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >
+                        <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-3 lg:block"></span>
+
+                        {/* Remove inline-block and ensure alignment */}
+                        <span className="flex items-start">
+                          Frontend Developer · Example Company
+                        </span>
+                      </a>
                     </h3>
+
                     <p className="mt-2 text-sm leading-normal">
-                      Supported senior developers with UI component creation and
-                      bug fixes. Participated in team agile sprints and client
-                      demos.
+                      Work on building and optimizing web applications with a
+                      focus on performance and accessibility. Collaborate with
+                      cross-functional teams to develop high-quality UI
+                      components.
                     </p>
+
                     <ul
                       className="mt-2 flex flex-wrap"
                       aria-label="Technologies used"
                     >
-                      <li className="mr-1.5 mt-2">
-                        <div className="flex items-center rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-300">
-                          JavaScript
-                        </div>
-                      </li>
-                      <li className="mr-1.5 mt-2">
-                        <div className="flex items-center rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-300">
-                          React
-                        </div>
-                      </li>
-                      <li className="mr-1.5 mt-2">
-                        <div className="flex items-center rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-300">
-                          SASS
-                        </div>
-                      </li>
+                      {[
+                        "JavaScript",
+                        "TypeScript",
+                        "React",
+                        "Tailwind CSS",
+                      ].map((tech) => (
+                        <li key={tech} className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-300">
+                            {tech}
+                          </div>
+                        </li>
+                      ))}
                     </ul>
                   </div>
                 </div>
@@ -308,57 +307,59 @@ const Home = () => {
 
               <li className="mb-12">
                 <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-                  <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-100 dark:lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
-                  <header className="z-10 mb-2 lg:mt-3 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">
-                    2021 — 2023
+                  {/* Background Hover Effect with Increased Padding */}
+                  <div className="absolute -inset-x-4 -inset-y-5 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-100 dark:lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+
+                  {/* Left Section: Ensure Date is at the Top */}
+                  <header className="z-10 mt-0.5 mb-4 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2 flex items-start">
+                    2025 — Present
                   </header>
-                  <div className="z-10 sm:col-span-6">
-                    <h3 className="font-medium leading-snug text-text">
-                      <div>
-                        <a
-                          className="inline-flex items-baseline font-medium leading-tight text-text hover:text-indigo-300 focus-visible:text-indigo-300 group/link text-base"
-                          href="https://www.techstart.com"
-                          target="_blank"
-                          rel="noreferrer noopener"
-                        >
-                          <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                          <span>
-                            Junior Developer ·{" "}
-                            <span className="inline-block">TechStart</span>
-                          </span>
-                        </a>
-                      </div>
+
+                  {/* Right Section: Ensure Title is Fully Flush */}
+                  <div className="z-10 sm:col-span-6 flex flex-col items-start">
+                    <h3 className="font-medium leading-snug text-text flex items-start">
+                      <a
+                        className="inline-flex items-baseline font-medium leading-tight text-text hover:text-indigo-300 focus-visible:text-indigo-300 group/link text-base"
+                        href="https://www.example.com"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >
+                        <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-3 lg:block"></span>
+
+                        {/* Remove inline-block and ensure alignment */}
+                        <span className="flex items-start">
+                          Frontend Developer · Example Company
+                        </span>
+                      </a>
                     </h3>
+
                     <p className="mt-2 text-sm leading-normal">
-                      Supported senior developers with UI component creation and
-                      bug fixes. Participated in team agile sprints and client
-                      demos.
+                      Work on building and optimizing web applications with a
+                      focus on performance and accessibility. Collaborate with
+                      cross-functional teams to develop high-quality UI
+                      components.
                     </p>
+
                     <ul
                       className="mt-2 flex flex-wrap"
                       aria-label="Technologies used"
                     >
-                      <li className="mr-1.5 mt-2">
-                        <div className="flex items-center rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-300">
-                          JavaScript
-                        </div>
-                      </li>
-                      <li className="mr-1.5 mt-2">
-                        <div className="flex items-center rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-300">
-                          React
-                        </div>
-                      </li>
-                      <li className="mr-1.5 mt-2">
-                        <div className="flex items-center rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-300">
-                          SASS
-                        </div>
-                      </li>
+                      {[
+                        "JavaScript",
+                        "TypeScript",
+                        "React",
+                        "Tailwind CSS",
+                      ].map((tech) => (
+                        <li key={tech} className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium leading-5 text-indigo-300">
+                            {tech}
+                          </div>
+                        </li>
+                      ))}
                     </ul>
                   </div>
                 </div>
               </li>
-
-              {/* Add more static cards as needed */}
             </ol>
           </section>
           <section id="projects" className="mb-16">
