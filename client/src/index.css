@@ -107,6 +107,10 @@ h6 {
   padding: 1rem;
 }
 
+ul {
+  font-family: "Montserrat", sans-serif;
+}
+
 /* Button styles */
 button {
   background-color: var(--button);
@@ -156,5 +160,9 @@ button:hover {
   }
   .mainTop {
     padding-top: 100px !important;
+  }
+
+  .hide {
+    display: none;
   }
 }
