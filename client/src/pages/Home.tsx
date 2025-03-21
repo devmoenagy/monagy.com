@@ -108,7 +108,7 @@ const Home = () => {
 "
         >
           <section id="about" className="mb-16">
-            <h2 className="hide">About</h2>
+            <h3 className="hide text-lg">About</h3>
             <p>
               "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
@@ -135,7 +135,7 @@ const Home = () => {
             </p>
           </section>
           <section id="experience" className="mb-16">
-            <h2 className="hide">Experience</h2>
+            <h3 className="hide text-lg">Experience</h3>
             <ol className="list-none">
               <li className="mb-12">
                 <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
@@ -362,7 +362,7 @@ const Home = () => {
             </ol>
           </section>
           <section id="projects" className="mb-16">
-            <h2 className="hide">Projects</h2>
+            <h3 className="hide text-lg">Projects</h3>
             <p className="mt-4">
               "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
