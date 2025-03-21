@@ -44,7 +44,7 @@ const Home = () => {
             </p>
             {/* Navigation */}
             <nav
-              className="mt-16 mb-8 hidden lg:block"
+              className="mt-16 mb-8 hidden lg:block text-base"
               aria-label="In-page jump links"
             >
               <ul>
