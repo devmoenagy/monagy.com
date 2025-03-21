@@ -126,6 +126,10 @@ button:hover {
   padding-top: 50px !important;
 }
 
+.hide {
+  padding-bottom: 20px;
+}
+
 /* Responsive settings for larger screens */
 @media (min-width: 768px) {
   .textLogo {
