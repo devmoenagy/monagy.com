@@ -124,6 +124,7 @@ button:hover {
 
 .asideTop {
   padding-top: 50px !important;
+  padding-bottom: 50px;
 }
 
 .hide {
