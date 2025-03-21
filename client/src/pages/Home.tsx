@@ -38,7 +38,7 @@ const Home = () => {
             <h1>
               <a href="/">Mohamed Nagy</a>
             </h1>
-            <h4 className="mt-3">Web App Developer</h4>
+            <h2 className="mt-3 text-lg">Web App Developer</h2>
             <p className="mt-4 max-w-xs leading-normal">
               Crafting pixel-perfect, user-centric web experiences 🚀
             </p>
