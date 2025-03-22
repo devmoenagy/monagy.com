@@ -67,8 +67,8 @@ const Home = () => {
   // ✅ Experience data for individual cards
   const experienceList = [
     {
-      title: "Frontend Developer",
-      company: "Example Corp",
+      title: "Software Developer",
+      company: "ADAPT Community Network",
       link: "https://www.example.com",
       dateRange: "2025 — Present",
       description:
@@ -76,28 +76,28 @@ const Home = () => {
       technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
     },
     {
-      title: "Web Developer",
-      company: "Creative Studio",
+      title: "Web Developer II",
+      company: "ADAPT Community Network",
       link: "https://www.creativestudio.com",
-      dateRange: "2023 — 2025",
+      dateRange: "2023 - 2025",
       description:
         "Led development of marketing sites and landing pages with animated scroll effects and interactive forms.",
       technologies: ["Next.js", "JavaScript", "Framer Motion", "Sass"],
     },
     {
-      title: "UI Engineer",
-      company: "Designify",
+      title: "Junior Web Developer",
+      company: "ADAPT Community Network",
       link: "https://www.designify.com",
-      dateRange: "2022 — 2023",
+      dateRange: "2021 — 2023",
       description:
         "Collaborated with designers to implement clean, mobile-first layouts and improved page load by 40%.",
       technologies: ["React", "Styled Components", "GSAP", "HTML5"],
     },
     {
-      title: "Frontend Intern",
-      company: "DevLaunch",
+      title: "Web Developer",
+      company: "webDefinitely",
       link: "https://www.devlaunch.io",
-      dateRange: "2021 — 2022",
+      dateRange: "2016 — 2021",
       description:
         "Contributed to a component library and helped refactor legacy code to modern React.",
       technologies: ["React", "Redux", "Bootstrap", "Jest"],
@@ -190,7 +190,7 @@ const Home = () => {
 
         {/* Right Column - Main Content */}
         <main className="mainTop lg:w-3/5 p-6 lg:p-12">
-          <section id="about" ref={aboutRef} className="mb-16">
+          <section id="about" ref={aboutRef} className="mb-16 lg:mb-28">
             <h3 className="hide text-base">ABOUT</h3>
             <p>
               "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -220,7 +220,11 @@ const Home = () => {
             </p>
           </section>
 
-          <section id="experience" ref={experienceRef} className="mb-16">
+          <section
+            id="experience"
+            ref={experienceRef}
+            className="mb-16 lg:mb-28"
+          >
             <h3 className="hide text-base">EXPERIENCE</h3>
             <ol className="list-none">
               {experienceList.map((exp, index) => (
@@ -264,6 +268,7 @@ const Home = () => {
                 </li>
               ))}
             </ol>
+            <p className="font-bold">Download Resume</p>
           </section>
 
           <section id="projects" ref={projectsRef} className="mb-16">
