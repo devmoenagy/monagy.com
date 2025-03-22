@@ -6,6 +6,7 @@ import {
   faCodepen,
 } from "@fortawesome/free-brands-svg-icons";
 import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
+import MoNAGYImg from "../assets/MoNAGY.webp";
 
 const Home = () => {
   const [darkMode, setDarkMode] = useState(() => {
@@ -273,23 +274,104 @@ const Home = () => {
 
           <section id="projects" ref={projectsRef} className="mb-16">
             <h3 className="hide text-base">PROJECTS</h3>
-            <p>
-              "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-              eos qui ratione voluptatem sequi nesciunt."
-            </p>
-            <br />
-            <p>
-              "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-              eos qui ratione voluptatem sequi nesciunt."
-            </p>
+            <ol className="list-none">
+              {/* Project 1 */}
+              <li className="mb-12">
+                <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                  <div className="absolute -inset-x-4 -inset-y-5 z-0 hidden rounded-md transition lg:-inset-x-6 lg:block lg:group-hover:bg-slate-100 dark:lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+
+                  {/* Content */}
+                  <div className="z-10 order-1 sm:order-2 sm:col-span-6 flex flex-col items-start">
+                    <h3 className="font-medium leading-snug text-text flex items-start">
+                      <a
+                        className="inline-flex items-baseline font-medium leading-tight text-text hover:text-indigo-300 focus-visible:text-indigo-300 group/link text-base"
+                        href="https://example.com"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >
+                        <span className="absolute inset-0 hidden rounded lg:block"></span>
+                        <span className="flex items-start">
+                          Project One · Personal
+                        </span>
+                      </a>
+                    </h3>
+                    <p className="mt-2 text-sm leading-normal">
+                      A sleek portfolio template showcasing interactive
+                      sections, smooth scrolling, and responsive layouts. Built
+                      with performance and accessibility in mind.
+                    </p>
+                    <ul
+                      className="mt-2 flex flex-wrap"
+                      aria-label="Technologies used"
+                    >
+                      {["React", "Tailwind CSS", "Vite"].map((tech) => (
+                        <li key={tech} className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium text-indigo-300">
+                            {tech}
+                          </div>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+
+                  {/* Image at bottom on mobile */}
+                  <img
+                    src={MoNAGYImg}
+                    alt="Project One Thumbnail"
+                    className="order-2 mt-4 sm:order-1 sm:mt-0 aspect-video object-cover rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:col-span-2 sm:translate-y-1"
+                  />
+                </div>
+              </li>
+
+              {/* Project 2 */}
+              <li className="mb-12">
+                <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                  <div className="absolute -inset-x-4 -inset-y-5 z-0 hidden rounded-md transition lg:-inset-x-6 lg:block lg:group-hover:bg-slate-100 dark:lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+
+                  {/* Content */}
+                  <div className="z-10 order-1 sm:order-2 sm:col-span-6 flex flex-col items-start">
+                    <h3 className="font-medium leading-snug text-text flex items-start">
+                      <a
+                        className="inline-flex items-baseline font-medium leading-tight text-text hover:text-indigo-300 focus-visible:text-indigo-300 group/link text-base"
+                        href="https://example.com"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >
+                        <span className="absolute inset-0 hidden rounded lg:block"></span>
+                        <span className="flex items-start">
+                          Blog Engine · Side Project
+                        </span>
+                      </a>
+                    </h3>
+                    <p className="mt-2 text-sm leading-normal">
+                      A fully-featured blog platform with Markdown support,
+                      image uploads, user accounts, and a slick dashboard for
+                      post management.
+                    </p>
+                    <ul
+                      className="mt-2 flex flex-wrap"
+                      aria-label="Technologies used"
+                    >
+                      {["Next.js", "TypeScript", "MongoDB"].map((tech) => (
+                        <li key={tech} className="mr-1.5 mt-2">
+                          <div className="flex items-center rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium text-indigo-300">
+                            {tech}
+                          </div>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+
+                  {/* Image at bottom on mobile */}
+                  <img
+                    src={MoNAGYImg}
+                    alt="Project Two Thumbnail"
+                    className="order-2 mt-4 sm:order-1 sm:mt-0 aspect-video object-cover rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:col-span-2 sm:translate-y-1"
+                  />
+                </div>
+              </li>
+            </ol>
+
             <br />
             <p>
               "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
