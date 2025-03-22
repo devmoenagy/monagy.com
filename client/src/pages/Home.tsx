@@ -160,14 +160,14 @@ const Home = () => {
           </div>
 
           {/* Social Icons */}
-          <div className="mt-4 lg:mt-auto flex items-center space-x-4">
+          <div className="mt-4 lg:mt-auto flex items-center space-x-5">
             <a
               href="https://github.com"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-inherit"
             >
-              <FontAwesomeIcon icon={faGithub} size="lg" />
+              <FontAwesomeIcon icon={faGithub} size="xl" />
             </a>
             <a
               href="https://linkedin.com"
@@ -175,7 +175,7 @@ const Home = () => {
               rel="noopener noreferrer"
               className="hover:text-inherit"
             >
-              <FontAwesomeIcon icon={faLinkedin} size="lg" />
+              <FontAwesomeIcon icon={faLinkedin} size="xl" />
             </a>
             <a
               href="https://codepen.io"
@@ -183,7 +183,7 @@ const Home = () => {
               rel="noopener noreferrer"
               className="hover:text-inherit"
             >
-              <FontAwesomeIcon icon={faCodepen} size="lg" />
+              <FontAwesomeIcon icon={faCodepen} size="xl" />
             </a>
           </div>
         </aside>
