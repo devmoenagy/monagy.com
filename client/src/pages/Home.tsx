@@ -76,7 +76,7 @@ const Home = () => {
       technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
     },
     {
-      title: "Web Developer II",
+      title: "Web Developer",
       company: "ADAPT Community Network",
       link: "https://www.creativestudio.com",
       dateRange: "2023 - 2025",
@@ -94,7 +94,7 @@ const Home = () => {
       technologies: ["React", "Styled Components", "GSAP", "HTML5"],
     },
     {
-      title: "Web Developer",
+      title: "Founder & Web Developer",
       company: "webDefinitely",
       link: "https://www.devlaunch.io",
       dateRange: "2016 — 2021",
@@ -268,7 +268,7 @@ const Home = () => {
                 </li>
               ))}
             </ol>
-            <p className="font-bold">Download Resume</p>
+            <p className="font-bold">Download Résumé</p>
           </section>
 
           <section id="projects" ref={projectsRef} className="mb-16">
