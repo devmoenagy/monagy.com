@@ -315,11 +315,13 @@ const Home = () => {
                   </div>
 
                   {/* Image at bottom on mobile */}
-                  <img
-                    src={MoNAGYImg}
-                    alt="Project One Thumbnail"
-                    className="order-2 mt-4 sm:order-1 sm:mt-0 aspect-video object-cover rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:col-span-2 sm:translate-y-1"
-                  />
+                  <div className="order-2 mt-6 sm:order-1 sm:mt-0 sm:col-span-2 sm:translate-y-1">
+                    <img
+                      src={MoNAGYImg}
+                      alt="Project One Thumbnail"
+                      className="w-[65%] sm:w-full aspect-video object-cover rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30"
+                    />
+                  </div>
                 </div>
               </li>
 
@@ -363,11 +365,13 @@ const Home = () => {
                   </div>
 
                   {/* Image at bottom on mobile */}
-                  <img
-                    src={MoNAGYImg}
-                    alt="Project Two Thumbnail"
-                    className="order-2 mt-4 sm:order-1 sm:mt-0 aspect-video object-cover rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:col-span-2 sm:translate-y-1"
-                  />
+                  <div className="order-2 mt-6 sm:order-1 sm:mt-0 sm:col-span-2 sm:translate-y-1">
+                    <img
+                      src={MoNAGYImg}
+                      alt="Project One Thumbnail"
+                      className="w-[65%] sm:w-full aspect-video object-cover rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30"
+                    />
+                  </div>
                 </div>
               </li>
             </ol>
