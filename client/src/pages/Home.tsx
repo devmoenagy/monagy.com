@@ -401,7 +401,7 @@ const Home = () => {
             </ol>
 
             <br />
-            <pre className="bg-background dark:bg-darkBackground text-textLight dark:text-textDark text-sm rounded p-4 overflow-x-auto text-left font-mono w-full max-w-2xl">
+            <pre className="bg-background dark:bg-darkBackground text-textLight dark:text-textDark text-sm rounded overflow-x-auto text-left font-mono w-full max-w-2xl">
               <code>
                 <span className="text-blue-600 dark:text-[#569CD6]">
                   function
