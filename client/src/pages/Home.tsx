@@ -268,7 +268,7 @@ const Home = () => {
                       >
                         {exp.technologies.map((tech) => (
                           <li key={tech} className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium text-indigo-300">
+                            <div className="flex items-center rounded-md bg-indigo-500/10 px-3 py-1 text-xs font-medium text-indigo-300">
                               {tech}
                             </div>
                           </li>
@@ -327,7 +327,7 @@ const Home = () => {
                         "Vercel",
                       ].map((tech) => (
                         <li key={tech} className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium text-indigo-300">
+                          <div className="flex items-center rounded-md bg-indigo-500/10 px-3 py-1 text-xs font-medium text-indigo-300">
                             {tech}
                           </div>
                         </li>
@@ -379,7 +379,7 @@ const Home = () => {
                       {["React", "TypeScript", "Tailwind CSS", "Vercel"].map(
                         (tech) => (
                           <li key={tech} className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium text-indigo-300">
+                            <div className="flex items-center rounded-md bg-indigo-500/10 px-3 py-1 text-xs font-medium text-indigo-300">
                               {tech}
                             </div>
                           </li>
