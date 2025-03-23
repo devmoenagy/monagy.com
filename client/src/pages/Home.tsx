@@ -259,7 +259,7 @@ const Home = () => {
                           </span>
                         </a>
                       </h3>
-                      <p className="mt-2 text-sm leading-normal">
+                      <p className="text-sm leading-normal">
                         {exp.description}
                       </p>
                       <ul
