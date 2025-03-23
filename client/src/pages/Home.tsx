@@ -7,6 +7,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
 import MoNAGYImg from "../assets/MoNAGY.webp";
+import BlogwebappImg from "../assets/Blogwebapp.webp";
 
 const Home = () => {
   const [darkMode, setDarkMode] = useState(() => {
@@ -193,32 +194,45 @@ const Home = () => {
         <main className="mainTop lg:w-3/5 p-6 lg:p-12">
           <section id="about" ref={aboutRef} className="mb-16 lg:mb-28">
             <h3 className="hide text-base">ABOUT</h3>
-            <p>
-              "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-              eos qui ratione voluptatem sequi nesciunt."
-            </p>
-            <br />
-            <p>
-              "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-              eos qui ratione voluptatem sequi nesciunt."
-            </p>
-            <br />
-            <p>
-              "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-              eos qui ratione voluptatem sequi nesciunt."
-            </p>
+            <div className="space-y-6 text-base md:text-lg leading-relaxed ">
+              <p>
+                Hi, I'm <strong className="font-semibold">Mohamed Nagy</strong>{" "}
+                — a web developer with a passion for building clean, responsive,
+                and user-focused applications. I specialize in the{" "}
+                <strong className="font-semibold">MERN stack</strong>, combining
+                modern front-end tools like{" "}
+                <strong className="font-semibold">React</strong> and{" "}
+                <strong className="font-semibold">TypeScript</strong> with
+                robust backend solutions to bring ideas to life. I care deeply
+                about design, performance, and creating seamless digital
+                experiences that are both intuitive and enjoyable.
+              </p>
+
+              <p>
+                My approach is rooted in writing{" "}
+                <strong className="font-semibold">
+                  clean, maintainable code
+                </strong>{" "}
+                and staying up-to-date with the latest in web technologies. I
+                enjoy building features that solve real problems, whether it's a
+                simple landing page or a full-stack application. Every project
+                is an opportunity to learn, improve, and deliver something
+                valuable — and I thrive in environments where growth and
+                creativity go hand in hand.
+              </p>
+
+              <p>
+                This portfolio showcases my journey, skills, and recent work.
+                I'm currently open to{" "}
+                <strong className="font-semibold">
+                  freelance opportunities
+                </strong>
+                , collaborations, or full-time roles where I can contribute and
+                continue growing. If you're looking for a developer who’s
+                motivated, detail-oriented, and excited to build meaningful web
+                experiences.
+              </p>
+            </div>
           </section>
 
           <section
@@ -291,20 +305,31 @@ const Home = () => {
                       >
                         <span className="absolute inset-0 hidden rounded lg:block"></span>
                         <span className="flex items-start">
-                          Project One · Personal
+                          Blog Engine · MERN Stack
                         </span>
                       </a>
                     </h3>
                     <p className="mt-2 text-sm leading-normal">
-                      A sleek portfolio template showcasing interactive
-                      sections, smooth scrolling, and responsive layouts. Built
-                      with performance and accessibility in mind.
+                      A full-stack blogging platform built with the MERN stack
+                      (MongoDB, Express, React, Node.js) and TypeScript. It
+                      features user authentication with JWT, responsive design
+                      with Tailwind CSS, profile management, and post creation
+                      with image uploads & social interactions.
                     </p>
                     <ul
                       className="mt-2 flex flex-wrap"
                       aria-label="Technologies used"
                     >
-                      {["React", "Tailwind CSS", "Vite"].map((tech) => (
+                      {[
+                        "React",
+                        "TypeScript",
+                        "Node.js",
+                        "Express",
+                        "MongoDB",
+                        "Tailwind CSS",
+                        "JWT",
+                        "Vercel",
+                      ].map((tech) => (
                         <li key={tech} className="mr-1.5 mt-2">
                           <div className="flex items-center rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium text-indigo-300">
                             {tech}
@@ -317,7 +342,7 @@ const Home = () => {
                   {/* Image at bottom on mobile */}
                   <div className="order-2 mt-6 sm:order-1 sm:mt-0 sm:col-span-2 sm:translate-y-1">
                     <img
-                      src={MoNAGYImg}
+                      src={BlogwebappImg}
                       alt="Project One Thumbnail"
                       className="w-[65%] sm:w-full aspect-video object-cover rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30"
                     />
@@ -341,26 +366,29 @@ const Home = () => {
                       >
                         <span className="absolute inset-0 hidden rounded lg:block"></span>
                         <span className="flex items-start">
-                          Blog Engine · Side Project
+                          MoNAGY.com · Personal Portfolio
                         </span>
                       </a>
                     </h3>
                     <p className="mt-2 text-sm leading-normal">
-                      A fully-featured blog platform with Markdown support,
-                      image uploads, user accounts, and a slick dashboard for
-                      post management.
+                      A modern, responsive personal portfolio built with React,
+                      TypeScript, and Tailwind CSS. It showcases projects,
+                      experience, and social links with smooth animations using
+                      Framer Motion and a clean UI.
                     </p>
                     <ul
                       className="mt-2 flex flex-wrap"
                       aria-label="Technologies used"
                     >
-                      {["Next.js", "TypeScript", "MongoDB"].map((tech) => (
-                        <li key={tech} className="mr-1.5 mt-2">
-                          <div className="flex items-center rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium text-indigo-300">
-                            {tech}
-                          </div>
-                        </li>
-                      ))}
+                      {["React", "TypeScript", "Tailwind CSS", "Vercel"].map(
+                        (tech) => (
+                          <li key={tech} className="mr-1.5 mt-2">
+                            <div className="flex items-center rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-medium text-indigo-300">
+                              {tech}
+                            </div>
+                          </li>
+                        )
+                      )}
                     </ul>
                   </div>
 
