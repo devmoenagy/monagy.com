@@ -9,9 +9,8 @@ const AboutSection: React.FC<Props> = ({ aboutRef }) => (
     <h3 className="hide text-base">ABOUT</h3>
     <div className="space-y-6 text-base md:text-lg leading-relaxed ">
       <p>
-        Hi, I'm <strong className="font-semibold">Mohamed Nagy</strong> — a web
-        developer with a passion for building clean, responsive, and
-        user-focused applications. I specialize in the{" "}
+        Hi, I'm a web developer with a passion for building clean, responsive,
+        and user-focused applications. I specialize in the{" "}
         <strong className="font-semibold">MERN stack</strong>, combining modern
         front-end tools like <strong className="font-semibold">React</strong>{" "}
         and <strong className="font-semibold">TypeScript</strong> with robust
