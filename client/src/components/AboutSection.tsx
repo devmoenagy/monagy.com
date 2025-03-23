@@ -16,27 +16,27 @@ const AboutSection: React.FC<Props> = ({ aboutRef }) => (
         and <strong className="font-semibold">TypeScript</strong> with robust
         backend solutions to bring ideas to life. I care deeply about design,
         performance, and creating seamless digital experiences that are both
-        intuitive and enjoyable.
+        intuitive and enjoyable across all devices and platforms.
       </p>
 
       <p>
         My approach is rooted in writing{" "}
         <strong className="font-semibold">clean, maintainable code</strong> and
-        staying up-to-date with the latest in web technologies. I enjoy building
-        features that solve real problems, whether it's a simple landing page or
-        a full-stack application. Every project is an opportunity to learn,
-        improve, and deliver something valuable — and I thrive in environments
-        where growth and creativity go hand in hand.
+        staying up-to-date with the latest in web technologies, frameworks, and
+        development best practices. I enjoy building features that solve real
+        problems, whether it's a simple landing page, an interactive dashboard,
+        or a full-stack application with complex workflows. Every project is an
+        opportunity to learn, improve, and deliver something valuable — and I
+        thrive in environments where growth, collaboration, and creativity go
+        hand in hand.
       </p>
 
       <p>
-        This portfolio showcases my journey, skills, and recent work. I'm
-        currently open to{" "}
-        <strong className="font-semibold">freelance opportunities</strong>,
-        collaborations, or full-time roles where I can contribute and continue
-        growing. If you're looking for a developer who’s motivated,
-        detail-oriented, and excited to build meaningful web experiences — let’s
-        connect.
+        This portfolio showcases my journey, skill set, and recent work. I'm
+        currently open to freelance opportunities, collaborations, or full-time
+        roles where I can contribute meaningfully and continue growing as a
+        developer. Motivated and detail-oriented, ready to build impactful web
+        experiences — let’s connect.
       </p>
     </div>
   </section>
