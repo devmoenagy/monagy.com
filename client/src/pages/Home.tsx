@@ -135,22 +135,22 @@ const Home = () => {
                   <li key={section}>
                     <a
                       href={`#${section}`}
-                      className={`relative inline-block py-3 tracking-widest uppercase transition-all duration-200 
-                        ${
-                          activeSection === section
-                            ? "font-bold text-text"
-                            : "font-medium text-text hover:font-bold"
-                        }
-                        before:absolute before:bottom-1 before:left-0 before:h-[2px] before:w-full 
-                        before:origin-left before:scale-x-0 before:bg-indigo-500 
-                        before:transition-transform before:duration-300 
-                        hover:before:scale-x-100 
-                        ${
-                          activeSection === section
-                            ? "before:scale-x-100"
-                            : "before:scale-x-0"
-                        }
-                      `}
+                      className={`relative inline-block py-3 tracking-widest uppercase transition-all duration-200
+          ${
+            activeSection === section
+              ? "font-bold text-text dark:text-white"
+              : "font-medium text-text hover:font-bold dark:text-gray-300 dark:hover:text-white"
+          }
+          before:absolute before:bottom-1 before:left-0 before:h-[2px] before:w-full 
+          before:origin-left before:scale-x-0 before:bg-indigo-500 
+          before:transition-transform before:duration-300 
+          hover:before:scale-x-100 
+          ${
+            activeSection === section
+              ? "before:scale-x-100"
+              : "before:scale-x-0"
+          }
+        `}
                     >
                       {section}
                     </a>
@@ -166,7 +166,7 @@ const Home = () => {
               href="https://github.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-inherit"
+              className="text-text dark:text-gray-300 dark:hover:text-white transition-colors duration-200"
             >
               <FontAwesomeIcon icon={faGithub} size="xl" />
             </a>
@@ -174,7 +174,7 @@ const Home = () => {
               href="https://linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-inherit"
+              className="text-text dark:text-gray-300 dark:hover:text-white transition-colors duration-200"
             >
               <FontAwesomeIcon icon={faLinkedin} size="xl" />
             </a>
@@ -182,7 +182,7 @@ const Home = () => {
               href="https://codepen.io"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-inherit"
+              className="text-text dark:text-gray-300 dark:hover:text-white transition-colors duration-200"
             >
               <FontAwesomeIcon icon={faCodepen} size="xl" />
             </a>
