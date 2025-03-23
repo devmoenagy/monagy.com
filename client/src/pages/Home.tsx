@@ -305,7 +305,7 @@ const Home = () => {
                         </span>
                       </a>
                     </h3>
-                    <p className="mt-2 text-sm leading-normal">
+                    <p className="text-sm leading-normal">
                       A full-stack blogging platform built with the MERN stack
                       (MongoDB, Express, React, Node.js) and TypeScript. It
                       features user authentication with JWT, responsive design
@@ -366,7 +366,7 @@ const Home = () => {
                         </span>
                       </a>
                     </h3>
-                    <p className="mt-2 text-sm leading-normal">
+                    <p className="text-sm leading-normal">
                       A modern, responsive personal portfolio built with React,
                       TypeScript, and Tailwind CSS. It showcases projects,
                       experience, and social links with smooth animations using
