@@ -37,7 +37,7 @@ const ExperienceSection: React.FC<Props> = ({
             </header>
             <div className="z-10 sm:col-span-6 flex flex-col items-start">
               <h3 className="font-medium leading-snug text-text flex items-start">
-                <span className="inline-flex items-baseline font-medium leading-tight text-text hover:text-indigo-300 focus-visible:text-indigo-300 group/link text-base relative">
+                <span className="inline-flex items-baseline font-medium leading-tight text-text group-hover:text-indigo-300 focus-visible:text-indigo-300 group/link text-base relative">
                   <span className="absolute inset-0 hidden rounded lg:block" />
                   <span className="flex items-start">
                     {exp.title} · {exp.company}
