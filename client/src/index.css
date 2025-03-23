@@ -131,6 +131,11 @@ button:hover {
   padding-bottom: 20px;
 }
 
+code,
+pre {
+  font-family: "Fira Code", "Courier New", monospace;
+}
+
 /* Responsive settings for larger screens */
 @media (min-width: 768px) {
   .textLogo {
