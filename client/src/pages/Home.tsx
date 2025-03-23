@@ -7,7 +7,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
 import MoNAGYImg from "../assets/MoNAGY.webp";
-import BlogwebappImg from "../assets/Blogwebapp.webp";
+import BlogWebappImg from "../assets/BlogWebapp.webp";
 
 const Home = () => {
   const [darkMode, setDarkMode] = useState(() => {
@@ -338,7 +338,7 @@ const Home = () => {
                   {/* Image at bottom on mobile */}
                   <div className="order-2 mt-6 sm:order-1 sm:mt-0 sm:col-span-2 sm:translate-y-1">
                     <img
-                      src={BlogwebappImg}
+                      src={BlogWebappImg}
                       alt="Project One Thumbnail"
                       className="w-[65%] sm:w-full aspect-video object-cover rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30"
                     />
