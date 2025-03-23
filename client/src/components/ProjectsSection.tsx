@@ -46,7 +46,7 @@ const ProjectsSection: React.FC<Props> = ({ projectsRef }) => {
               <div className="z-10 order-1 sm:order-2 sm:col-span-6 flex flex-col items-start">
                 <h3 className="font-medium leading-snug text-text flex items-start">
                   <a
-                    className="inline-flex items-baseline font-medium leading-tight text-text hover:text-indigo-300 focus-visible:text-indigo-300 group/link text-base"
+                    className="inline-flex items-baseline font-medium leading-tight text-text group-hover:text-indigo-300 focus-visible:text-indigo-300 group/link text-base"
                     href={project.link}
                     target="_blank"
                     rel="noreferrer noopener"
