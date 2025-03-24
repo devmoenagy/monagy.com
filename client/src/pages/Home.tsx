@@ -85,10 +85,10 @@ const Home = () => {
       description:
         "Design, develop, and maintain Power Platform applications while managing SQL Server databases, writing complex queries, integrating data using Microsoft Fabric and Azure, collaborating with stakeholders, providing technical support, maintaining documentation, and driving continuous system improvements.",
       technologies: [
-        "PowerPlatform",
-        "PowerApps",
-        "PowerAutomate",
-        "SQLServer",
+        "Power Platform",
+        "Power Apps",
+        "Power Automate",
+        "SQL Server",
       ],
       modalContent: (
         <>
