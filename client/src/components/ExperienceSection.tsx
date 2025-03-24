@@ -65,7 +65,7 @@ const ExperienceSection: React.FC<Props> = ({
     <a
       href="/assets/Resume-MohamedNAGY.pdf"
       download
-      className="font-bold text-white hover:text-indigo-500 transition-colors duration-500"
+      className="font-bold hover:text-indigo-500 transition-colors duration-500"
     >
       Download Résumé
     </a>
