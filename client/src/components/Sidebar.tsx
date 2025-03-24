@@ -66,7 +66,7 @@ const Sidebar: React.FC<Props> = ({ activeSection }) => {
           <FontAwesomeIcon icon={faGithub} size="xl" />
         </a>
         <a
-          href="https://www.linkedin.com/in/moenagy/"
+          href="https://www.linkedin.com/in/devmonagy"
           target="_blank"
           rel="noopener noreferrer"
           className="text-text dark:text-gray-300 dark:hover:text-white transition-colors duration-200"
