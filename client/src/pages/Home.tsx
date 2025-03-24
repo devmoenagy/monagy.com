@@ -89,6 +89,7 @@ const Home = () => {
         "Power Apps",
         "Power Automate",
         "SQL Server",
+        "Azure Integration",
       ],
       modalContent: (
         <>
