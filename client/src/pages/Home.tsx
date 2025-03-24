@@ -82,8 +82,14 @@ const Home = () => {
       company: "ADAPT Community Network",
       link: "#",
       dateRange: "2025 — Present",
-      description: "Building responsive UIs and reusable components...",
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
+      description:
+        "Design, develop, and maintain Power Platform applications while managing SQL Server databases, writing complex queries, integrating data using Microsoft Fabric and Azure, collaborating with stakeholders, providing technical support, maintaining documentation, and driving continuous system improvements.",
+      technologies: [
+        "PowerPlatform",
+        "PowerApps",
+        "PowerAutomate",
+        "SQLServer",
+      ],
       modalContent: (
         <>
           <p>
@@ -103,8 +109,18 @@ const Home = () => {
       link: "#",
       dateRange: "2023 - 2025",
       description:
-        "Led development of marketing sites and landing pages with animation.",
-      technologies: ["Next.js", "JavaScript", "Framer Motion", "Sass"],
+        "In charge of developing, and maintaining multiple WordPress websites for the organization with a focus on accessibility and user experience. Utilize strong skills in HTML, CSS, JavaScript and PHP backend development to create high-quality, functional websites that meet organizational goals.",
+      technologies: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "WordPress",
+        "PHP",
+        "API Integration",
+        "Responsive Design",
+        "SEO",
+        "Accessibility",
+      ],
       modalContent: (
         <>
           <p>
@@ -124,8 +140,14 @@ const Home = () => {
       link: "#",
       dateRange: "2021 — 2023",
       description:
-        "Collaborated with designers to implement clean, mobile-first layouts.",
-      technologies: ["React", "Styled Components", "GSAP", "HTML5"],
+        "Assisted in designing, developing, and maintaining WordPress websites with a focus on accessibility and user experience. Applied foundational skills in HTML, CSS, and JavaScript to build responsive and functional web pages, while gaining experience in backend development to support website functionality and meet project goals.",
+      technologies: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "WordPress",
+        "Content Management",
+      ],
       modalContent: (
         <>
           <p>
@@ -142,8 +164,15 @@ const Home = () => {
       link: "#",
       dateRange: "2016 — 2021",
       description:
-        "Contributed to a component library and helped refactor legacy code.",
-      technologies: ["React", "Redux", "Bootstrap", "Jest"],
+        "Collaborated with local businesses, artists, and entrepreneurs to create custom websites and brand identities. Managed full project lifecycles—from domain and hosting setup to strategic SEO implementation—delivering polished, user-friendly experiences that reflect each client’s unique vision.",
+      technologies: [
+        "Web Development",
+        "Full Stack Development",
+        "SEO",
+        "Client Collaboration",
+        "Responsive Design",
+        "Accessibility",
+      ],
       modalContent: (
         <>
           <p>
