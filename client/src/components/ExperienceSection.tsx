@@ -62,7 +62,13 @@ const ExperienceSection: React.FC<Props> = ({
         </li>
       ))}
     </ol>
-    <p className="font-bold">Download Résumé</p>
+    <a
+      href="/assets/Resume-MohamedNAGY.pdf"
+      download
+      className="font-bold text-white hover:text-indigo-500 transition-colors duration-500"
+    >
+      Download Résumé
+    </a>
   </section>
 );
 
