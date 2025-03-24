@@ -64,7 +64,8 @@ const ExperienceSection: React.FC<Props> = ({
     </ol>
     <a
       href="/assets/Resume-MohamedNAGY.pdf"
-      download
+      target="_blank"
+      rel="noopener noreferrer"
       className="font-bold hover:text-indigo-500 transition-colors duration-500"
     >
       Download Résumé
