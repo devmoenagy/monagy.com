@@ -58,7 +58,7 @@ const Sidebar: React.FC<Props> = ({ activeSection }) => {
 
       <div className="mt-4 lg:mt-auto flex items-center space-x-5">
         <a
-          href="https://github.com/devmoenagy"
+          href="https://github.com/devmonagy"
           target="_blank"
           rel="noopener noreferrer"
           className="text-text dark:text-gray-300 dark:hover:text-white transition-colors duration-200"
@@ -74,7 +74,7 @@ const Sidebar: React.FC<Props> = ({ activeSection }) => {
           <FontAwesomeIcon icon={faLinkedin} size="xl" />
         </a>
         <a
-          href="https://codepen.io/MoNAGY"
+          href="https://codepen.io/devmonagy"
           target="_blank"
           rel="noopener noreferrer"
           className="text-text dark:text-gray-300 dark:hover:text-white transition-colors duration-200"
