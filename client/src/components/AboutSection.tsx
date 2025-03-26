@@ -11,9 +11,10 @@ const AboutSection: React.FC<Props> = ({ aboutRef }) => (
       <p>
         Hi, I'm a web developer with a passion for building clean, responsive,
         and user-focused applications. I specialize in the{" "}
-        <strong className="font-semibold">MERN stack</strong>, combining modern
-        front-end tools like <strong className="font-semibold">React</strong>{" "}
-        and <strong className="font-semibold">TypeScript</strong> with robust
+        <strong className="dark:text-white">MERN stack</strong>, combining
+        modern front-end tools like{" "}
+        <strong className="dark:text-white">React</strong> and{" "}
+        <strong className="dark:text-white">TypeScript</strong> with robust
         backend solutions to bring ideas to life. I care deeply about design,
         performance, and creating seamless digital experiences that are both
         intuitive and enjoyable across all devices and platforms.
@@ -21,14 +22,14 @@ const AboutSection: React.FC<Props> = ({ aboutRef }) => (
 
       <p>
         My approach is rooted in writing{" "}
-        <strong className="font-semibold">clean, maintainable code</strong> and
-        staying up-to-date with the latest in web technologies, frameworks, and
-        development best practices. I enjoy building features that solve real
-        problems, whether it's a simple landing page, an interactive dashboard,
-        or a full-stack application with complex workflows. Every project is an
-        opportunity to learn, improve, and deliver something valuable — and I
-        thrive in environments where growth, collaboration, and creativity go
-        hand in hand.
+        <strong className="dark:text-white">clean, maintainable code</strong>{" "}
+        and staying up-to-date with the latest in web technologies, frameworks,
+        and development best practices. I enjoy building features that solve
+        real problems, whether it's a simple landing page, an interactive
+        dashboard, or a full-stack application with complex workflows. Every
+        project is an opportunity to learn, improve, and deliver something
+        valuable — and I thrive in environments where growth, collaboration, and
+        creativity go hand in hand.
       </p>
 
       <p>

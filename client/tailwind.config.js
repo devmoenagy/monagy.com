@@ -14,7 +14,7 @@ module.exports = {
         background: "#f4f4f4", // Light background color
         darkBackground: "#1a202c", // Dark background color for dark mode
         textLight: "#333333", // Light text color
-        textDark: "#f1f5f9", // Dark text color for dark mode
+        textDark: "#94a3b8", // Dark text color for dark mode
       },
       fontFamily: {
         sans: ["Roboto", "sans-serif"], // Default font for body

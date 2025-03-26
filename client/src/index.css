@@ -54,6 +54,16 @@ h6 {
   margin-bottom: 0.75rem; /* Space after headings */
 }
 
+/* Make all headings white in dark mode only */
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6 {
+  color: #fff;
+}
+
 /* Header and other typography settings maintained */
 h1 {
   font-size: 1.875rem; /* 30px on mobile */

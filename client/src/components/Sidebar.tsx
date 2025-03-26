@@ -35,7 +35,7 @@ const Sidebar: React.FC<Props> = ({ activeSection }) => {
                     ${
                       activeSection === section
                         ? "font-bold text-text dark:text-white"
-                        : "font-medium text-text hover:font-bold dark:text-gray-300 dark:hover:text-white"
+                        : "font-medium text-text hover:font-bold  dark:hover:text-white"
                     }
                     before:absolute before:bottom-1 before:left-0 before:h-[2px] before:w-full 
                     before:origin-left before:scale-x-0 before:bg-indigo-500 
