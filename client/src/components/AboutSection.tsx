@@ -13,7 +13,7 @@ const AboutSection: React.FC<Props> = ({ aboutRef }) => (
       <p>
         Hi, I'm a web developer with a passion for building clean, responsive,
         and user-focused applications. I specialize in the{" "}
-        <strong className="dark:text-textWhiteOnDark text-textBlackOnLightk">
+        <strong className="dark:text-textWhiteOnDark text-textBlackOnLight">
           MERN stack
         </strong>
         , combining modern front-end tools like{" "}
