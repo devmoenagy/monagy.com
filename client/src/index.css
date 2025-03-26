@@ -54,26 +54,6 @@ h6 {
   margin-bottom: 0.75rem; /* Space after headings */
 }
 
-/* Make all headings white in dark mode only */
-.dark h1,
-.dark h2,
-.dark h3,
-.dark h4,
-.dark h5,
-.dark h6 {
-  color: #fff;
-}
-
-/* Make all headings black in dark mode only */
-.light h1,
-.light h2,
-.light h3,
-.light h4,
-.light h5,
-.light h6 {
-  color: #000;
-}
-
 .StrongLightMode {
   color: #000;
 }
@@ -199,4 +179,50 @@ pre {
   .hide {
     display: none;
   }
+}
+
+/* Webkit Browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4f46e5; /* Indigo */
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #6366f1; /* Lighter indigo on hover */
+}
+
+/* Scrollbar arrows (buttons) */
+::-webkit-scrollbar-button {
+  background-color: transparent;
+  height: 16px;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:decrement {
+  background-color: transparent;
+  background-image: url("data:image/svg+xml,%3Csvg width='8' height='8' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 0 L0 4 L8 4 Z' fill='black'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:increment {
+  background-color: transparent;
+  background-image: url("data:image/svg+xml,%3Csvg width='8' height='8' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 8 L0 4 L8 4 Z' fill='black'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #4f46e5 transparent;
 }

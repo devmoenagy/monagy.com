@@ -29,16 +29,4 @@ module.exports = {
       },
     },
   },
-  plugins: [
-    plugin(function ({ addBase, theme }) {
-      addBase({
-        "h1, h2, h3, h4, h5, h6": {
-          color: "#333333", // Light mode only — applies by default
-        },
-        ".dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6": {
-          // Do nothing — inherit or use your existing dark styling
-        },
-      });
-    }),
-  ],
 };

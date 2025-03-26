@@ -6,13 +6,17 @@ interface Props {
 
 const AboutSection: React.FC<Props> = ({ aboutRef }) => (
   <section id="about" ref={aboutRef} className="mb-16 lg:mb-28">
-    <h3 className="hide text-base">ABOUT</h3>
+    <h3 className="hide text-base dark:text-textWhiteOnDark text-textBlackOnLight">
+      ABOUT
+    </h3>
     <div className="space-y-6 text-base md:text-lg leading-relaxed ">
       <p>
         Hi, I'm a web developer with a passion for building clean, responsive,
         and user-focused applications. I specialize in the{" "}
-        <strong className="dark:text-white StrongLightMode">MERN stack</strong>,
-        combining modern front-end tools like{" "}
+        <strong className="dark:text-textWhiteOnDark text-textBlackOnLightk">
+          MERN stack
+        </strong>
+        , combining modern front-end tools like{" "}
         <strong className="dark:text-white StrongLightMode">React</strong> and{" "}
         <strong className="dark:text-white StrongLightMode">TypeScript</strong>{" "}
         with robust backend solutions to bring ideas to life. I care deeply

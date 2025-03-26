@@ -15,9 +15,16 @@ const Sidebar: React.FC<Props> = ({ activeSection }) => {
     <aside className="asideTop p-6 lg:w-1/2 lg:sticky lg:top-0 lg:h-screen lg:flex lg:flex-col lg:justify-normal lg:p-12">
       <div>
         <h1>
-          <a href="/">Mohamed Nagy</a>
+          <a
+            className="dark:text-textWhiteOnDark text-textBlackOnLight"
+            href="/"
+          >
+            Mohamed Nagy
+          </a>
         </h1>
-        <h2 className="mt-3 text-lg">Web App Developer</h2>
+        <h2 className="mt-3 text-lg dark:text-textWhiteOnDark text-textBlackOnLight">
+          Web App Developer
+        </h2>
         <p className="mt-4 max-w-xs leading-normal">
           Crafting pixel-perfect, user-centric web experiences 🚀
         </p>
@@ -61,7 +68,7 @@ const Sidebar: React.FC<Props> = ({ activeSection }) => {
           href="https://github.com/devmonagy"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-text dark:text-gray-300 dark:hover:text-white transition-colors duration-200"
+          className="dark:text-textDark text-gray-700 hover:text-black dark:hover:text-white transition-colors duration-200"
         >
           <FontAwesomeIcon icon={faGithub} size="xl" />
         </a>
@@ -69,7 +76,7 @@ const Sidebar: React.FC<Props> = ({ activeSection }) => {
           href="https://www.linkedin.com/in/devmonagy"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-text dark:text-gray-300 dark:hover:text-white transition-colors duration-200"
+          className="dark:text-textDark text-gray-700 hover:text-black dark:hover:text-white transition-colors duration-200"
         >
           <FontAwesomeIcon icon={faLinkedin} size="xl" />
         </a>
@@ -77,7 +84,7 @@ const Sidebar: React.FC<Props> = ({ activeSection }) => {
           href="https://codepen.io/devmonagy"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-text dark:text-gray-300 dark:hover:text-white transition-colors duration-200"
+          className="dark:text-textDark text-gray-700 hover:text-black dark:hover:text-white transition-colors duration-200"
         >
           <FontAwesomeIcon icon={faCodepen} size="xl" />
         </a>

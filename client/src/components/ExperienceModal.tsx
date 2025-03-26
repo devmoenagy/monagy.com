@@ -65,8 +65,10 @@ const ExperienceModal: React.FC<Props> = ({
           >
             <X size={20} />
           </button>
-          <h2 className="text-2xl font-semibold mb-2">{experience.title}</h2>
-          <p className="text-sm text-gray-500 mb-4">
+          <h2 className="text-xl font-semibold mb-2 dark:text-textWhiteOnDark text-textBlackOnLight">
+            {experience.title}
+          </h2>
+          <p className="text-sm dark:text-textWhiteOnDark text-textBlackOnLight  mb-4">
             {experience.company} — {experience.dateRange}
           </p>
           <div className="leading-relaxed text-base space-y-3">
