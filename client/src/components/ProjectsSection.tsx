@@ -9,7 +9,7 @@ interface Props {
 const ProjectsSection: React.FC<Props> = ({ projectsRef }) => {
   const projectData = [
     {
-      title: "Blogwebapp · MERN Stack",
+      title: "Blogwebapp (Deploying Soon) · MERN Stack",
       description:
         "A full-stack blogging platform built with the MERN stack (MongoDB, Express, React, Node.js) and TypeScript. It features user authentication with JWT, responsive design with Tailwind CSS, profile management, and post creation with image uploads & social interactions.",
       link: "https://example.com",
