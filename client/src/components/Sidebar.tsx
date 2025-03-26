@@ -68,7 +68,7 @@ const Sidebar: React.FC<Props> = ({ activeSection }) => {
           href="https://github.com/devmonagy"
           target="_blank"
           rel="noopener noreferrer"
-          className="dark:text-textDark text-gray-700 hover:text-black dark:hover:text-white transition-colors duration-200"
+          className="dark:text-textDark text-textBlackOnLight hover:text-gray-700 dark:hover:text-white transition-colors duration-200"
         >
           <FontAwesomeIcon icon={faGithub} size="xl" />
         </a>
@@ -76,7 +76,7 @@ const Sidebar: React.FC<Props> = ({ activeSection }) => {
           href="https://www.linkedin.com/in/devmonagy"
           target="_blank"
           rel="noopener noreferrer"
-          className="dark:text-textDark text-gray-700 hover:text-black dark:hover:text-white transition-colors duration-200"
+          className="dark:text-textDark text-textBlackOnLight hover:text-gray-700 dark:hover:text-white transition-colors duration-200"
         >
           <FontAwesomeIcon icon={faLinkedin} size="xl" />
         </a>
@@ -84,7 +84,7 @@ const Sidebar: React.FC<Props> = ({ activeSection }) => {
           href="https://codepen.io/devmonagy"
           target="_blank"
           rel="noopener noreferrer"
-          className="dark:text-textDark text-gray-700 hover:text-black dark:hover:text-white transition-colors duration-200"
+          className="dark:text-textDark text-textBlackOnLight hover:text-gray-700 dark:hover:text-white transition-colors duration-200"
         >
           <FontAwesomeIcon icon={faCodepen} size="xl" />
         </a>
