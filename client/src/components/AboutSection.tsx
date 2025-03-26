@@ -11,18 +11,20 @@ const AboutSection: React.FC<Props> = ({ aboutRef }) => (
       <p>
         Hi, I'm a web developer with a passion for building clean, responsive,
         and user-focused applications. I specialize in the{" "}
-        <strong className="dark:text-white">MERN stack</strong>, combining
-        modern front-end tools like{" "}
-        <strong className="dark:text-white">React</strong> and{" "}
-        <strong className="dark:text-white">TypeScript</strong> with robust
-        backend solutions to bring ideas to life. I care deeply about design,
-        performance, and creating seamless digital experiences that are both
-        intuitive and enjoyable across all devices and platforms.
+        <strong className="dark:text-white StrongLightMode">MERN stack</strong>,
+        combining modern front-end tools like{" "}
+        <strong className="dark:text-white StrongLightMode">React</strong> and{" "}
+        <strong className="dark:text-white StrongLightMode">TypeScript</strong>{" "}
+        with robust backend solutions to bring ideas to life. I care deeply
+        about design, performance, and creating seamless digital experiences
+        that are both intuitive and enjoyable across all devices and platforms.
       </p>
 
       <p>
         My approach is rooted in writing{" "}
-        <strong className="dark:text-white">clean, maintainable code</strong>{" "}
+        <strong className="dark:text-white StrongLightMode">
+          clean, maintainable code
+        </strong>{" "}
         and staying up-to-date with the latest in web technologies, frameworks,
         and development best practices. I enjoy building features that solve
         real problems, whether it's a simple landing page, an interactive

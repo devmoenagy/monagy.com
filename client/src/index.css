@@ -64,6 +64,20 @@ h6 {
   color: #fff;
 }
 
+/* Make all headings black in dark mode only */
+.light h1,
+.light h2,
+.light h3,
+.light h4,
+.light h5,
+.light h6 {
+  color: #000;
+}
+
+.StrongLightMode {
+  color: #000;
+}
+
 /* Header and other typography settings maintained */
 h1 {
   font-size: 1.875rem; /* 30px on mobile */
