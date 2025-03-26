@@ -30,7 +30,7 @@ const Sidebar: React.FC<Props> = ({ activeSection }) => {
         </p>
 
         <nav
-          className="mt-16 mb-8 hidden lg:block text-base"
+          className="mt-16 mb-8 hidden lg:block text-base text-textLight dark:text-textDark"
           aria-label="In-page jump links"
         >
           <ul>
@@ -41,8 +41,8 @@ const Sidebar: React.FC<Props> = ({ activeSection }) => {
                   className={`relative inline-block py-3 tracking-widest uppercase transition-all duration-200
                     ${
                       activeSection === section
-                        ? "font-bold text-black dark:text-white"
-                        : "font-medium text-text hover:font-bold hover:text-black dark:hover:text-white"
+                        ? "font-bold text-textBlackOnLight dark:text-white"
+                        : "font-medium text-text hover:font-bold hover:text-textBlackOnLight dark:hover:text-white"
                     }
                     before:absolute before:bottom-1 before:left-0 before:h-[2px] before:w-full 
                     before:origin-left before:scale-x-0 before:bg-indigo-500 

@@ -17,8 +17,13 @@ const AboutSection: React.FC<Props> = ({ aboutRef }) => (
           MERN stack
         </strong>
         , combining modern front-end tools like{" "}
-        <strong className="dark:text-white StrongLightMode">React</strong> and{" "}
-        <strong className="dark:text-white StrongLightMode">TypeScript</strong>{" "}
+        <strong className="dark:text-textWhiteOnDark text-textBlackOnLight">
+          React
+        </strong>{" "}
+        and{" "}
+        <strong className="dark:text-textWhiteOnDark text-textBlackOnLight">
+          TypeScript
+        </strong>{" "}
         with robust backend solutions to bring ideas to life. I care deeply
         about design, performance, and creating seamless digital experiences
         that are both intuitive and enjoyable across all devices and platforms.
@@ -26,7 +31,7 @@ const AboutSection: React.FC<Props> = ({ aboutRef }) => (
 
       <p>
         My approach is rooted in writing{" "}
-        <strong className="dark:text-white StrongLightMode">
+        <strong className="dark:text-textWhiteOnDark text-textBlackOnLight">
           clean, maintainable code
         </strong>{" "}
         and staying up-to-date with the latest in web technologies, frameworks,
